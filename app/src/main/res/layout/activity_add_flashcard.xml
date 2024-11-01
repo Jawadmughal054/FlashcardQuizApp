@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText_question"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Question" />
+
+    <EditText
+        android:id="@+id/editText_answer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Answer" />
+
+    <Button
+        android:id="@+id/button_save_flashcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Flashcard" />
+</LinearLayout>
